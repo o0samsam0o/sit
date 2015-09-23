@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
+    background:#887662 url(img/white_carbon.png);
 }
 
 html {
@@ -147,8 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(img/desert.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    /*background: url(img/desert.jpg) no-repeat bottom center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -191,7 +190,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(img/desert.jpg) no-repeat center center scroll;
+    /*background: url(img/desert.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
