@@ -24,4 +24,9 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-
+//fade in
+$(document).ready(function(){
+    $('div').each(function(i){
+        $(this).delay((i++)*500).fadeTo(1000, 1);
+    });
+});

@@ -90,8 +90,16 @@ a:focus {
     outline: 0;
 }
 
+.navbar-brand{
+    padding-top: 5px;
+}
+
+.navbar-brand img{
+    height: 40px;    
+}
+
 .navbar-custom a {
-    color: #fff;
+    color: #F08A00;
 }
 
 .navbar-custom .nav li a {
@@ -135,6 +143,11 @@ a:focus {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
+    .navbar-nav > li > a {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
@@ -166,8 +179,9 @@ a:focus {
     font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
-    font-size: 18px;
+.intro p {
+    font-size: 24px;
+    color: #CEAA7C;
 }
 
 @media(min-width:768px) {
