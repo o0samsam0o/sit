@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background:#887662 url(img/white_carbon.png);
+    color: #F08A00;
+    background: #887662 url(img/white_carbon.png);
 }
 
 html {
@@ -28,12 +28,14 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #F08A00;
 }
 
-p {
+p, td {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    color: #FCF7D3;
 }
 
 @media(min-width:768px) {
@@ -136,7 +138,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #887662;
     }
 }
 
@@ -147,7 +149,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    /*background: url(img/desert.jpg) no-repeat bottom center scroll;*/
+    background: url(../img/desert_klein.jpg) no-repeat bottom center scroll;
+    background-color: #887662;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -184,9 +187,22 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    background-image: url("../img/square_bg.png");
 }
 
-.download-section {
+.person{
+    float: left;
+    margin: 0 20px;
+    vertical-align: top;
+}
+
+.person img{
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.partnerschaften-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -203,7 +219,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .partnerschaften-section {
         padding: 100px 0;
     }
 }
