@@ -249,12 +249,13 @@ a:focus {
     }
 
     .contact-section, .impressum-section {
-        padding-top: 70px;
+       padding-top: 100px;
         padding-bottom: 250px;
-    }
+    }    
 
     .partner-section {
-        padding: 100px 0;
+        padding-top: 250px;
+        padding-bottom: 300px;
     }
 }
 
