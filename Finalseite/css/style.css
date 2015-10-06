@@ -222,12 +222,24 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    /*background: url(img/desert.jpg) no-repeat center center scroll;*/
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: #39341E;
+    background-image: url("../img/square_bg.png");
+}
+
+.person-section {
+    width: 100%;
+    padding: 250px 0 300px 0;
+    background-image: url("../img/square_bg.png");
+}
+
+.contact-section{
+    background-color: #56686C;
+    background-image: url("../img/square_bg.png");
+}
+
+.impressum-section {
+    background-color: #02160D;
+    background-image: url("../img/square_bg.png");
 }
 
 @media(min-width:767px) {
