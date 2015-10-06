@@ -152,7 +152,6 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #887662;
     }
 }
 
@@ -164,7 +163,6 @@ a:focus {
     text-align: center;
     color: #fff;
     background: url(../img/desert_klein.jpg) no-repeat bottom center scroll;
-    background-color: #887662;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -220,7 +218,7 @@ a:focus {
     margin: 10px;
 }
 
-.partnerschaften-section {
+.partner-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -243,7 +241,7 @@ a:focus {
         padding-bottom: 250px;
     }
 
-    .partnerschaften-section {
+    .partner-section {
         padding: 100px 0;
     }
 }
