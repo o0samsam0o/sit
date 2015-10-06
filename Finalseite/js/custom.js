@@ -8,14 +8,13 @@ $(window).scroll(function() {
     }
 });
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
+// jQuery for page scrolling feature 
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
-        event.preventDefault();
     });
 });
 
@@ -24,9 +23,42 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-//fade in
+//fade in of navbar elements
 $(document).ready(function(){
-    $('div').each(function(i){
-        $(this).delay((i++)*500).fadeTo(1000, 1);
+    $(".fadeIn").each(function(index) {
+        $(this).hide(0).delay(300*index).fadeTo(500, 1);
+});
+
+});
+
+
+//animated headlines
+$(function() {
+  
+  // Function which adds the 'animated' class to any '.animatable' in view
+  var doAnimations = function() {
+    
+    // Calc current offset and get all animatables
+    var offset = $(window).scrollTop() + $(window).height(),
+        $animatables = $('.animatable');
+    
+    // Unbind scroll handler if we have no animatables
+    if ($animatables.size() == 0) {
+      $(window).off('scroll', doAnimations);
+    }
+    
+    // Check all animatables and animate them if necessary
+        $animatables.each(function(i) {
+       var $animatable = $(this);
+            if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+        $animatable.removeClass('animatable').addClass('animated');
+            }
     });
+
+    };
+  
+  // Hook doAnimations on scroll, and trigger a scroll
+    $(window).on('scroll', doAnimations);
+  $(window).trigger('scroll');
+
 });
