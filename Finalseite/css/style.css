@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #F08A00;
-    background: #887662 url(img/white_carbon.png);
+    background: #887662; /*url(img/white_carbon.png);*/
 }
 
 html {
@@ -203,7 +203,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-    background-image: url("../img/square_bg.png");
+    /*background-image: url("../img/square_bg.png");*/
 }
 
 .person{
@@ -222,23 +222,23 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background-color: #39341E;
-    background-image: url("../img/square_bg.png");
+    background-color: #4B525A;
+    /*background-image: url("../img/subtle_white_feathers.png");*/
 }
 
 .person-section {
     width: 100%;
     padding: 250px 0;
-    background-image: url("../img/square_bg.png");
+    /*background-image: url("../img/triangles.png");*/
 }
 
 .contact-section{
     background-color: #56686C;
-    background-image: url("../img/square_bg.png");
+    /*background-image: url("../img/square_bg.png");*/
 }
 
 .impressum-section {
-    background-image: url("../img/square_bg.png");
+    /*background-image: url("../img/white_plaster.png");*/
 }
 
 @media(min-width:767px) {
