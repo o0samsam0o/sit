@@ -228,7 +228,7 @@ a:focus {
 
 .person-section {
     width: 100%;
-    padding: 250px 0 300px 0;
+    padding: 250px 0;
     background-image: url("../img/square_bg.png");
 }
 
@@ -238,7 +238,6 @@ a:focus {
 }
 
 .impressum-section {
-    background-color: #02160D;
     background-image: url("../img/square_bg.png");
 }
 
@@ -249,13 +248,16 @@ a:focus {
     }
 
     .contact-section, .impressum-section {
-       padding-top: 100px;
+       padding-top: 80px;
         padding-bottom: 250px;
     }    
 
-    .partner-section {
-        padding-top: 250px;
-        padding-bottom: 300px;
+    .partner-section, .person-section {
+        padding: 250px 0 300px 0;
+    }
+
+    .person-section {
+        padding: 250px 0;
     }
 }
 
@@ -308,6 +310,7 @@ td {
 footer {
     padding: 50px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #02160D;
 }
 
 footer p {
@@ -362,39 +365,6 @@ body {
   -ms-animation-duration: 1s;
   -o-animation-duration: 1s;
   animation-duration: 1s;
-}
-
-.click{
-    -webkit-animation-delay: 0.8s; /* Chrome, Safari, Opera */
-    animation-delay: 0.8s;
-}
-
-@-webkit-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
 }
 
 .animated.animationDelay{
