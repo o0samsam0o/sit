@@ -31,7 +31,6 @@ $(document).ready(function(){
 
 });
 
-
 //animated headlines
 $(function() {
   

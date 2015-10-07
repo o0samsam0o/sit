@@ -219,7 +219,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-    /*background-image: url("../img/square_bg.png");*/
+    background-image: url("../img/geometry.png");
 }
 
 .partner-section {
@@ -227,26 +227,26 @@ a:focus {
     padding: 100px 0;
     color: #fff;
     background-color: #4B525A;
-    /*background-image: url("../img/subtle_white_feathers.png");*/
+    background-image: url("../img/gplaypattern.png");
 }
 
 .person-section {
     width: 100%;
     padding: 100px 0;
-    /*background-image: url("../img/triangles.png");*/
+    background-image: url("../img/dark_stripes.png");
 }
 
 .contact-section{
      width: 100%;
     padding: 100px 0;
     background-color: #56686C;
-    /*background-image: url("../img/square_bg.png");*/
+    background-image: url("../img/square_bg.png");
 }
 
 .impressum-section {
     width: 100%;
     padding: 100px 0;
-    /*background-image: url("../img/white_plaster.png");*/
+    /*background-image: url("../img/white_plaster.png");
 }
 
 @media(min-width:767px) {
