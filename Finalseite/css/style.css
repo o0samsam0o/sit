@@ -201,11 +201,6 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 100px;
-    /*background-image: url("../img/square_bg.png");*/
-}
-
 .person{
     float: left;
     vertical-align: top;
@@ -222,9 +217,14 @@ a:focus {
     margin: 20px 0 10px 0;
 }
 
+.content-section {
+    padding-top: 100px;
+    /*background-image: url("../img/square_bg.png");*/
+}
+
 .partner-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background-color: #4B525A;
     /*background-image: url("../img/subtle_white_feathers.png");*/
@@ -232,16 +232,20 @@ a:focus {
 
 .person-section {
     width: 100%;
-    padding: 250px 0;
+    padding: 100px 0;
     /*background-image: url("../img/triangles.png");*/
 }
 
 .contact-section{
+     width: 100%;
+    padding: 100px 0;
     background-color: #56686C;
     /*background-image: url("../img/square_bg.png");*/
 }
 
 .impressum-section {
+    width: 100%;
+    padding: 100px 0;
     /*background-image: url("../img/white_plaster.png");*/
 }
 
@@ -249,20 +253,25 @@ a:focus {
     .content-section {
         padding-top: 250px;
         padding-bottom: 250px;
-    }
+    }       
 
-    .contact-section, .impressum-section {
-       padding-top: 80px;
-        padding-bottom: 250px;
-    }    
-
-    .partner-section, .person-section {
+    .partner-section {
         padding: 250px 0 300px 0;
     }
 
     .person-section {
         padding: 250px 0;
     }
+
+    .contact-section {
+       padding-top: 80px;
+        padding-bottom: 250px;
+    } 
+
+    .impressum-section {
+       padding-top: 80px;
+    padding-bottom: 80px;
+    }    
 }
 
 .btn {
@@ -376,8 +385,8 @@ body {
     -webkit-animation-delay:.4s;
 }
 .animated.animationDelayMed{
-    animation-delay:1.2s;
-    -webkit-animation-delay:1.2s;
+    animation-delay:.8s;
+    -webkit-animation-delay:.8s;
 }
 .animated.animationDelayLong{
     animation-delay:1.6s;
@@ -389,4 +398,29 @@ body {
     -moz-animation-name: fadeInDown;
     -o-animation-name: fadeInDown;
     animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
