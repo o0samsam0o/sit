@@ -208,8 +208,8 @@ a:focus {
 
 .person{
     float: left;
-    margin: 0 30px;
     vertical-align: top;
+    width: 50%;
 }
 
 .person img{
