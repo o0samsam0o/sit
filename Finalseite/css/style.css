@@ -218,6 +218,10 @@ a:focus {
     margin: 10px;
 }
 
+.person h5 {
+    margin: 20px 0 10px 0;
+}
+
 .partner-section {
     width: 100%;
     padding: 50px 0;
