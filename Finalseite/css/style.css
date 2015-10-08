@@ -209,10 +209,27 @@ a:focus {
     }
 }
 
+.person-container{
+}
+
 .person{
     float: left;
-    vertical-align: top;
-    width: 50%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.person .name{
+    margin-bottom: 5px;
+}
+
+.person .position{
+    margin-bottom: 0px;
+    color: #FCF7D3;
+}
+
+.person-description p{
+    text-align: justify;
+    font-size: 16px;
 }
 
 .person img{
@@ -220,10 +237,6 @@ a:focus {
     border-radius: 50%;
     margin: 10px;
     border: 3px solid #FCF7D3;
-}
-
-.person h5 {
-    margin: 20px 0 10px 0;
 }
 
 .content-section {
@@ -266,7 +279,7 @@ a:focus {
     }
 
     .person-section {
-        padding: 250px 0;
+        padding: 80px 0;
     }
 
     .contact-section {
