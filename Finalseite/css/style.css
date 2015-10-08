@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #F08A00;
-    background: #887662; /*url(img/white_carbon.png);*/
+    background: #887662; 
 }
 
 html {
@@ -152,6 +152,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
+        background-color: #887662;
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
@@ -284,7 +285,7 @@ a:focus {
 
     .contact-section {
        padding-top: 80px;
-        padding-bottom: 250px;
+        padding-bottom: 80px;
     } 
 
     .impressum-section {
