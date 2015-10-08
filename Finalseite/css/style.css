@@ -147,6 +147,7 @@ a:focus {
     .navbar-nav > li > a {
         padding-top: 25px;
         padding-bottom: 5px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
     }
 
     .navbar-custom.top-nav-collapse {
@@ -184,13 +185,13 @@ a:focus {
 
 }
 
-.intro p {
+.intro-text {
     font-size: 24px;
     color: #CEAA7C;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     float: left;
     padding-left: 150px;
-    text-shadow: 3px -2px 1px rgba(0, 0, 0, 1);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 }
 
 @media(min-width:768px) {
