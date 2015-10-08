@@ -162,7 +162,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/desert_klein.jpg) no-repeat bottom center scroll;
+    background: url(../img/gecko_bgrd.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -171,11 +171,17 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    /*vertical-align: sub;*/
 }
 
 .intro .intro-body .brand-heading {
+    font-family: 'Michroma', sans-serif;
     font-size: 40px;
+    text-transform: lowercase;
+    margin-top: 170px;
+    margin-bottom: 0;
+    text-shadow: 3px -2px 1px rgba(0, 0, 0, 1);
+
 }
 
 .intro p {
@@ -183,7 +189,8 @@ a:focus {
     color: #CEAA7C;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     float: left;
-    padding-left: 135px;
+    padding-left: 150px;
+    text-shadow: 3px -2px 1px rgba(0, 0, 0, 1);
 }
 
 @media(min-width:768px) {
